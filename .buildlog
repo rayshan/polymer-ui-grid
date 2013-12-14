@@ -54,6 +54,7 @@ build.dart --machine --changed=web/polymer_ui_grid.html
 build.dart finished [825 ms]
 
 ---
+<<<<<<< HEAD
 build.dart --machine --changed=web/polymer_ui_grid.html
 
 build.dart finished [768 ms]
@@ -311,4 +312,41 @@ build.dart finished [810 ms]
 build.dart --machine --changed=web/polymer_ui_grid_demo.html
 
 build.dart finished [786 ms]
+=======
+build.dart --machine --changed=README.md --changed=pubspec.lock --changed=pubspec.yaml --changed=web/clickcount...
+Unable to open file: /home/natasha/Documents/polymer-dart/polymer-ui-grid/packages/polymer/builder.dart'file:///home/natasha/Documents/polymer-dart/polymer-ui-grid/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [35 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [2327 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1376 ms]
+
+---
+build.dart --machine --changed=build/polymer_ui_grid.css --changed=build/polymer_ui_grid.html --changed=build/p...
+
+build.dart finished [1726 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1362 ms]
+
+---
+build.dart --machine --removed=build/polymer_ui_grid.css --removed=build/polymer_ui_grid.html --removed=build/p...
+
+build.dart finished [1500 ms]
+
+---
+build.dart --machine --changed=build/polymer_ui_grid.css --changed=build/polymer_ui_grid.html --changed=build/p...
+
+build.dart finished [2036 ms]
+>>>>>>> 8df35ecd0d021d6846743069c8969edb43123914
 
