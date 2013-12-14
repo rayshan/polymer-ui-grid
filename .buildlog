@@ -350,3 +350,34 @@ build.dart --machine --changed=build/polymer_ui_grid.css --changed=build/polymer
 build.dart finished [2036 ms]
 >>>>>>> 8df35ecd0d021d6846743069c8969edb43123914
 
+---
+build.dart --machine --changed=build/polymer_ui_grid.css --changed=build/polymer_ui_grid.html --changed=build/p...
+Unable to open file: /Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/packages/polymer/builder.dart'file:///Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [75 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart --removed=web/clickcounter.html
+Unable to open file: /Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/packages/polymer/builder.dart'file:///Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [68 ms]
+
+---
+build.dart --machine --removed=build/polymer_ui_grid.css --removed=build/polymer_ui_grid.html --removed=build/p...
+Unable to open file: /Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/packages/polymer/builder.dart'file:///Users/rayshan/Dropbox/=WebDev=/polymer_ui_grid/build.dart': error: line 1 pos 1: library handler failed
+import 'package:polymer/builder.dart';
+^
+build.dart finished [74 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1926 ms]
+
+---
+build.dart --machine --changed=build/polymer_ui_grid_demo.css --changed=build/polymer_ui_grid_demo.html --chang...
+
+build.dart finished [772 ms]
+
