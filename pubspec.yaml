@@ -1,0 +1,8 @@
+name: polymer_ui_grid
+version: 0.0.0
+description: Polymer grid element
+dependencies:
+  polymer: any
+transformers:
+- polymer:
+    entry_points: web/polymer_ui_grid.html
