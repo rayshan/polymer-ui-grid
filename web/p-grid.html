@@ -1,36 +1,59 @@
-<polymer-element name="p-grid" attributes="count">
+<polymer-element name="p-grid"> <!--attributes="data"-->
 
   <template>
 
     <style>
-      div {
-        font-size: 24pt;
-        text-align: center;
-        margin-top: 140px;
+	    .grid{
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: nowrap;
+		    justify-content: center;
+		    align-content: flex-start;
+		    align-items: flex-start;
+		    width: 100%;
+	    }
+
+      .pg-header .pg-cell {
+	      border: 1px solid white;
+	      background: royalblue;
+	      color: #FFF;
+	      padding: 10px;
       }
-      button {
-        font-size: 24pt;
-        margin-bottom: 20px;
-      }
-      .pg-cell {
-        color: red;
-      }
+
+	    .pg-row .pg-cell {
+		    border: 1px solid white;
+		    background: powderblue;
+		    padding: 10px;
+	    }
     </style>
 
-	  <div class="pg-header">
+	  <div class="grid pg-header">
+
 		  <div class="pg-cell">
 			  column 1
 		  </div>
+
 		  <div class="pg-cell">
 			  column 2
 		  </div>
+
 	  </div>
 
-    <template repeat="{{row in rows}}">
-      <div class="pg-cell">
-        {{ fruit }}.
-      </div>
-    </template>
+	  <div class="grid pg-row">
+	  	<div class="pg-cell">
+	  		row 1 cell 1
+	  	</div>
+		  <div class="pg-cell">
+			  cell 1
+		  </div>
+	  </div>
+
+
+    <!--<template repeat="{{row in rows}}">-->
+      <!--<div class="pg-cell">-->
+        <!--{{ fruit }}.-->
+      <!--</div>-->
+    <!--</template>-->
 
   </template>
 
