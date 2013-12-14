@@ -4,6 +4,8 @@ homepage: github.com/rayshan/polymer-ui-grid
 description: Polymer grid element
 dependencies:
   polymer: any
+  polymer_elements: any
+  polymer_ui_elements: any
 transformers:
 - polymer:
     entry_points: web/polymer_ui_grid_demo.html

@@ -12,13 +12,22 @@
         font-size: 24pt;
         margin-bottom: 20px;
       }
-      .cell {
+      .pg-cell {
         color: red;
       }
     </style>
 
-    <template repeat="{{fruit in fruits}}">
-      <div class="cell">
+	  <div class="pg-header">
+		  <div class="pg-cell">
+			  column 1
+		  </div>
+		  <div class="pg-cell">
+			  column 2
+		  </div>
+	  </div>
+
+    <template repeat="{{row in rows}}">
+      <div class="pg-cell">
         {{ fruit }}.
       </div>
     </template>

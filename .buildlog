@@ -381,3 +381,13 @@ build.dart --machine --changed=build/polymer_ui_grid_demo.css --changed=build/po
 
 build.dart finished [772 ms]
 
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"lib/polymer_ui_menu_button/polymer_ui_menu_button.html","message":"definition for Polymer element with tag name \"polymer-overlay\" not found.","line":33,"charStart":2303,"charEnd":2366}}]
+build.dart finished [1633 ms]
+
+---
+build.dart --machine --removed=build/polymer_ui_grid_demo.css --removed=build/polymer_ui_grid_demo.html --remov...
+[{"method":"warning","params":{"file":"lib/polymer_ui_menu_button/polymer_ui_menu_button.html","message":"definition for Polymer element with tag name \"polymer-overlay\" not found.","line":33,"charStart":2303,"charEnd":2366}}]
+build.dart finished [1471 ms]
+
