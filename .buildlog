@@ -267,3 +267,8 @@ build.dart --machine --changed=web/polymer_ui_grid_demo.html
 
 build.dart finished [808 ms]
 
+---
+build.dart --machine --changed=data.json
+
+build.dart finished [792 ms]
+
