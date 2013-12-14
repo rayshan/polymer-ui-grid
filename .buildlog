@@ -13,3 +13,43 @@ build.dart --machine --changed=pubspec.yaml
 
 build.dart finished [771 ms]
 
+---
+build.dart --machine --changed=README.md
+
+build.dart finished [757 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [846 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.html
+
+build.dart finished [789 ms]
+
+---
+build.dart --machine --changed=web/polymer-ui-grid.dart
+
+build.dart finished [889 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [860 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart --removed=web/polymer-ui-grid.dart
+
+build.dart finished [798 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html --removed=web/polymer_ui_grid.html
+
+build.dart finished [810 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.html
+
+build.dart finished [825 ms]
+

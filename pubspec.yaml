@@ -1,5 +1,6 @@
 name: polymer_ui_grid
 version: 0.0.0
+homepage: github.com/rayshan/polymer-ui-grid
 description: Polymer grid element
 dependencies:
   polymer: any
