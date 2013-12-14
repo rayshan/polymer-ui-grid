@@ -1,14 +1,10 @@
 import 'package:polymer/polymer.dart';
 
+
 @CustomTag('p-grid')
 class PGrid extends PolymerElement {
-  @published int count = 0;
+  final List fruits = toObservable(['apples', 'pears', 'bananas']);
 
-  PGrid.created() : super.created() {
-  }
-
-  void increment() {
-    count++;
-  }
+  PGrid.created() : super.created();
 }
 

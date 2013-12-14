@@ -1,5 +1,7 @@
 <polymer-element name="p-grid" attributes="count">
+
   <template>
+
     <style>
       div {
         font-size: 24pt;
@@ -10,12 +12,20 @@
         font-size: 24pt;
         margin-bottom: 20px;
       }
+      .cell {
+        color: red;
+      }
     </style>
-    <div>
-      <button on-click="{{increment}}">Click me</button><br>
-      <span>(click count: {{count}})</span>
-    </div>
+
+    <template repeat="{{fruit in fruits}}">
+      <div class="cell">
+        {{ fruit }}.
+      </div>
+    </template>
+
   </template>
+
   <script type="application/dart" src="p-grid.dart"></script>
+
 </polymer-element>
 

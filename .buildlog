@@ -272,3 +272,28 @@ build.dart --machine --changed=data.json
 
 build.dart finished [792 ms]
 
+---
+build.dart --machine --changed=web/p-grid.html
+
+build.dart finished [777 ms]
+
+---
+build.dart --machine --changed=web/p-grid.html
+
+build.dart finished [812 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart
+
+build.dart finished [1319 ms]
+
+---
+build.dart --machine --changed=web/p-grid.html
+
+build.dart finished [786 ms]
+
+---
+build.dart --machine --changed=web/p-grid.html
+
+build.dart finished [798 ms]
+
