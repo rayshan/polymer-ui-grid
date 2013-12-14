@@ -53,3 +53,217 @@ build.dart --machine --changed=web/polymer_ui_grid.html
 
 build.dart finished [825 ms]
 
+---
+build.dart --machine --changed=web/polymer_ui_grid.html
+
+build.dart finished [768 ms]
+
+---
+build.dart --machine --changed=web/clickcounter.dart --changed=web/clickcounter.html --changed=web/polymer_ui_g...
+
+build.dart finished [778 ms]
+
+---
+build.dart --machine --removed=web/polymer_ui_grid.css
+
+build.dart finished [787 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [794 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [830 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [783 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"polymer-ui-grid\" not found.","line":25,"charStart":671,"charEnd":688}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [778 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"polymer-ui-grid\" not found.","line":25,"charStart":671,"charEnd":688}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [873 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"polymer-ui-grid\" not found.","line":25,"charStart":671,"charEnd":688}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [789 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":671,"charEnd":679}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [797 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":671,"charEnd":679}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":671,"charEnd":679}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [788 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.dart
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"error","params":{"message":"To run a polymer application, you need to call \"initPolymer\". You can either include a generic script tag that does this for you:'<script type=\"application/dart\">export \"package:polymer/init.dart\";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports."}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected End of file. Expected DOCTYPE.","line":1,"charStart":0,"charEnd":0}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":671,"charEnd":679}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid.html threw error: To run a polymer application, you need to call "initPolymer". You can either include a generic script tag that does this for you:'<script type="application/dart">export "package:polymer/init.dart";</script>' or add your own script tag and call that function. Make sure the script tag is placed after all HTML imports.}
+build.dart finished [773 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+build.dart finished [809 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+build.dart finished [844 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid.html","message":"Unexpected start tag (polymer-element). Expected DOCTYPE.","line":1,"charStart":0,"charEnd":50}}]
+build.dart finished [1052 ms]
+
+---
+build.dart --machine --changed=web/p-grid.html --removed=web/polymer_ui_grid.html
+[{"method":"error","params":{"file":"web/polymer_ui_grid_demo.html","message":"couldn't find imported asset \"web/polymer_ui_grid.html\" in package \"polymer_ui_grid\".","line":11,"charStart":238,"charEnd":285}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":680,"charEnd":698}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid_demo.html threw error: couldn't find imported asset "web/polymer_ui_grid.html" in package "polymer_ui_grid".}
+build.dart finished [799 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart --removed=web/polymer_ui_grid.dart
+[{"method":"error","params":{"file":"web/polymer_ui_grid_demo.html","message":"couldn't find imported asset \"web/polymer_ui_grid.html\" in package \"polymer_ui_grid\".","line":11,"charStart":238,"charEnd":285}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":680,"charEnd":698}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid_demo.html threw error: couldn't find imported asset "web/polymer_ui_grid.html" in package "polymer_ui_grid".}
+build.dart finished [1306 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [796 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [793 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [783 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [791 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [790 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [1049 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart
+
+build.dart finished [820 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart
+
+build.dart finished [828 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart
+
+build.dart finished [1134 ms]
+
+---
+build.dart --machine --changed=web/p-grid.dart
+
+build.dart finished [787 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [776 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [777 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+[{"method":"error","params":{"file":"web/polymer_ui_grid_demo.html","message":"couldn't find imported asset \"web/p-grid1.html\" in package \"polymer_ui_grid\".","line":11,"charStart":247,"charEnd":286}}]
+[{"method":"warning","params":{"file":"web/polymer_ui_grid_demo.html","message":"definition for Polymer element with tag name \"p-grid\" not found.","line":25,"charStart":681,"charEnd":699}}]
+build failed with errors: {Transform polymer (Linter) on polymer_ui_grid|web/polymer_ui_grid_demo.html threw error: couldn't find imported asset "web/p-grid1.html" in package "polymer_ui_grid".}
+build.dart finished [793 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [805 ms]
+
+---
+build.dart --machine --changed=web/p-grid.html
+
+build.dart finished [1088 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [808 ms]
+
