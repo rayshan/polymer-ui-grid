@@ -297,3 +297,18 @@ build.dart --machine --changed=web/p-grid.html
 
 build.dart finished [798 ms]
 
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [801 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.css
+
+build.dart finished [810 ms]
+
+---
+build.dart --machine --changed=web/polymer_ui_grid_demo.html
+
+build.dart finished [786 ms]
+
