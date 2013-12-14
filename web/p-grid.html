@@ -1,4 +1,7 @@
-<polymer-element name="p-grid"> <!--attributes="data"-->
+<link rel="import"
+      href="packages/polymer_elements/polymer_ajax/polymer_ajax.html">
+
+<polymer-element name="p-grid">
 
   <template>
 
@@ -48,12 +51,11 @@
 		  </div>
 	  </div>
 
-
-    <!--<template repeat="{{row in rows}}">-->
-      <!--<div class="pg-cell">-->
-        <!--{{ fruit }}.-->
-      <!--</div>-->
-    <!--</template>-->
+    <template repeat="{{person in people}}">
+      <div class="pg-cell">
+        {{ person["name"] }}.
+      </div>
+    </template>
 
   </template>
 
