@@ -12,9 +12,11 @@ class PGrid extends PolymerElement {
   }
   
   sortTable(Event e, var detail, Node target) {
+    // Need to account for Active? to isActive
     String sortByEl = target.text.split(' ')[0];
     sortByEl = sortByEl.toLowerCase();
-    this.rows.sort((a,b) => a[sortByEl].compareTo(b[sortByEl]));
+    print(sortByEl);
+    print(this.rows..sort((a,b) => a[sortByEl].compareTo(b[sortByEl])));
   }
 }
 
