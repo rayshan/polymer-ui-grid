@@ -30,6 +30,10 @@
 	    }
     </style>
 
+    <polymer-ajax auto="true" url="data.json" handleAs="json"
+                  on-polymer-response="{{dataReceived}}">
+    </polymer-ajax>
+
 	  <div class="grid pg-header">
 
 		  <div class="pg-cell">
