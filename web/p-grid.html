@@ -4,74 +4,65 @@
 
     <style>
 	    .wrapper {
-		    display: flex;
-		    flex-direction: row;
+		    text-align: center;
+		    display: table;
 	    }
 
 	    .pg-header {
-		    flex: 1 100%;
+		    display: table-row;
 	    }
 
       .pg-header .pg-cell {
+	      display: table-cell;
 	      border: 1px solid white;
 	      background: royalblue;
 	      color: #FFF;
 	      padding: 10px;
       }
 
-	    .pg-rows {
-		    display: flex;
-		    flex-direction: row;
-		    flex-wrap: nowrap;
-		    justify-content: center;
-		    align-content: flex-start;
-		    align-items: flex-start;
-		    width: 100%;
+	    .pg-row {
+		    display: table-row;
+		    background: powderblue;
 	    }
 
-	    .pg-rows .pg-cell {
+	    .pg-row:hover {
+		    background: lightskyblue;
+	    }
+
+	    .pg-row .pg-cell {
+		    display: table-cell;
 		    border: 1px solid white;
-		    background: powderblue;
 		    padding: 10px;
 	    }
+
     </style>
-    
-	  <div class="grid">
+
+	  <div class="wrapper">
 
 		  <div class="pg-header">
 
-			  <div class="pg-cell">
-				  A
-			  </div>
-
-			  <div class="pg-cell">
-				  B
-			  </div>
+			  <template repeat="{{ column in columns }}">
+				  <div class="pg-cell">
+					  <span>{{column['title']}} ({{column['type']}})</span>
+				  </div>
+			  </template>
 
 		  </div>
 
-		  <div class="grid pg-rows">
-			  <div class="pg-cell">
-				  1
+		  <template repeat="{{row in rows}}">
+			  <div class="pg-row">
+
+				  <template repeat="{{column in columns}}">
+					  <div class="pg-cell">
+						  <span>{{row[column['key']]}}</span>
+						  <!--<template if="{{ cell.index == 0 }}"><span>{{ person["name"] }}</span></template>-->
+					  </div>
+				  </template>
+
 			  </div>
-			  <div class="pg-cell">
-				  1
-			  </div>
-		  </div>
+		  </template>
 
 	  </div>
-
-    <template repeat="{{column in columns}}">
-      <span>{{column['title']}} ({{column['type']}})</span>
-    </template>
-
-    <template repeat="{{row in rows}}">
-      <div class="pg-cell">
-        <template repeat="{{column in columns}}">
-          <span>{{row[column['key']]}}</span>
-        </template>
-      </div>
-    </template>
 
   </template>
 
