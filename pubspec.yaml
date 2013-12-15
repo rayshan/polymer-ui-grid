@@ -8,4 +8,4 @@ dependencies:
   polymer_ui_elements: any
 transformers:
 - polymer:
-    entry_points: web/polymer_ui_grid_demo.html
+    entry_points: web/index.html
