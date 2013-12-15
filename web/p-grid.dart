@@ -9,6 +9,7 @@ class PGrid extends PolymerElement {
 
   dataReceived(e, detail, node) {
     this.people = detail['response'];
+    print(this.people.length);
   }
 }
 

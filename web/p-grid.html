@@ -6,14 +6,13 @@
   <template>
 
     <style>
-	    .grid{
+	    .wrapper {
 		    display: flex;
 		    flex-direction: row;
-		    flex-wrap: nowrap;
-		    justify-content: center;
-		    align-content: flex-start;
-		    align-items: flex-start;
-		    width: 100%;
+	    }
+
+	    .pg-header {
+		    flex: 1 100%;
 	    }
 
       .pg-header .pg-cell {
@@ -23,7 +22,17 @@
 	      padding: 10px;
       }
 
-	    .pg-row .pg-cell {
+	    .pg-rows {
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: nowrap;
+		    justify-content: center;
+		    align-content: flex-start;
+		    align-items: flex-start;
+		    width: 100%;
+	    }
+
+	    .pg-rows .pg-cell {
 		    border: 1px solid white;
 		    background: powderblue;
 		    padding: 10px;
@@ -34,25 +43,29 @@
                   on-polymer-response="{{dataReceived}}">
     </polymer-ajax>
 
-	  <div class="grid pg-header">
+	  <div class="grid">
 
-		  <div class="pg-cell">
-			  column 1
+		  <div class="pg-header">
+
+			  <div class="pg-cell">
+				  A
+			  </div>
+
+			  <div class="pg-cell">
+				  B
+			  </div>
+
 		  </div>
 
-		  <div class="pg-cell">
-			  column 2
+		  <div class="grid pg-rows">
+			  <div class="pg-cell">
+				  1
+			  </div>
+			  <div class="pg-cell">
+				  1
+			  </div>
 		  </div>
 
-	  </div>
-
-	  <div class="grid pg-row">
-	  	<div class="pg-cell">
-	  		row 1 cell 1
-	  	</div>
-		  <div class="pg-cell">
-			  cell 1
-		  </div>
 	  </div>
 
     <template repeat="{{person in people}}">
