@@ -61,9 +61,15 @@
 
 	  </div>
 
-    <template repeat="{{person in people}}">
+    Columns count: {{columns.length}}
+    Row count: {{rows.length}}
+    <template repeat="{{row in rows}}">
       <div class="pg-cell">
-        {{ person["name"] }}.
+        <template repeat="{{column in columns}}">
+          <span>
+            {{ row[column] }}
+          </span>
+        </template>
       </div>
     </template>
 
