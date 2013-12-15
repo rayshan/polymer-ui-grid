@@ -3,7 +3,25 @@
   <template>
 
     <style>
-	    .wrapper {
+	    .pg-pagination{
+		    float: left;
+		    display: table;
+		    text-align: center;
+		    margin: 10px;
+		    width: 1.5em;
+	    }
+	    .pg-pagination .pg-arrow{
+		    color: #34AADC;
+	    }
+	    .pg-pagination .pg-page{
+		    display: table-row;
+		    vertical-align: middle;
+		    border: 1px solid white;
+		    color: white;
+		    background: #34AADC;
+		    height: 1.5em;
+	    }
+	    .pg-table {
 		    text-align: center;
 		    display: table;
 	    }
@@ -16,7 +34,7 @@
 	      display: table-cell;
 	      vertical-align: middle;
 	      border: 1px solid white;
-	      background: #1D77EF;
+	      background: #34AADC;
 	      color: #FFF;
 	      padding: 10px;
       }
@@ -52,7 +70,25 @@
 
     </style>
 
-	  <div class="wrapper">
+	  <div class="pg-pagination">
+		  <div class="pg-arrow">
+			  &#9650;
+		  </div>
+	  	<div class="pg-page">
+	  		1
+	  	</div>
+		  <div class="pg-page">
+			  2
+		  </div>
+		  <div class="pg-page">
+			  3
+		  </div>
+		  <div class="pg-arrow">
+			  &#9660;
+		  </div>
+	  </div>
+
+	  <div class="pg-table">
 
 		  <div class="pg-header">
 
