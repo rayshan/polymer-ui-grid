@@ -1,0 +1,20 @@
+<link rel="import"
+  href="packages/polymer_elements/polymer_ajax/polymer_ajax.html">
+
+<polymer-element name="p-grid-demo">
+  <template>
+
+    <h1>Polymer UI Grid Demo</h1>
+  
+    <polymer-ajax auto="true" url="data.json" handleAs="json"
+                  on-polymer-response="{{dataReceived}}">
+    </polymer-ajax>
+    
+    <div>
+      <p-grid people="{{people}}"></p-grid>
+    </div>
+  
+  </template>
+
+  <script type="application/dart" src="p-grid-demo.dart"></script>
+</polymer-element>
