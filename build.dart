@@ -1,6 +1,6 @@
 import 'package:polymer/builder.dart';
         
 main(args) {
-  build(entryPoints: ['web/polymer_ui_grid_demo.html'],
+  build(entryPoints: ['web/index.html'],
         options: parseOptions(args));
 }
