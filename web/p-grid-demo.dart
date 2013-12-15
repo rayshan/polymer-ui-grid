@@ -6,7 +6,14 @@ class PGridDemo extends PolymerElement {
   @observable List people;
   
   PGridDemo.created() : super.created() {
-    this.columns = ["picture", "name", "gender", "age", "id", "isActive"];
+    this.columns = [
+      {"key": "picture", "title": "Picture", "type": "image"},
+      {"key": "name", "title": "Name", "type": "string"},
+      {"key": "gender", "title": "Gender", "type": "string"},
+      {"key": "age", "title": "Age", "type": "number"},
+      {"key": "id", "title": "ID", "type": "string"},
+      {"key": "isActive", "title": "Active?", "type": "boolean"}
+    ];
   }
 
   dataReceived(e, detail, node) {

@@ -61,14 +61,14 @@
 
 	  </div>
 
-    Columns count: {{columns.length}}
-    Row count: {{rows.length}}
+    <template repeat="{{column in columns}}">
+      <span>{{column['title']}} ({{column['type']}})</span>
+    </template>
+
     <template repeat="{{row in rows}}">
       <div class="pg-cell">
         <template repeat="{{column in columns}}">
-          <span>
-            {{ row[column] }}
-          </span>
+          <span>{{row[column['key']]}}</span>
         </template>
       </div>
     </template>
